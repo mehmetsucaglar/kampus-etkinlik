@@ -7,4 +7,3 @@ Bu proje, üniversite kampüsündeki etkinlikleri listelemek ve yönetmek amacı
 - Tüm sayfalar ortak semantik iskelete (`header`, `nav`, `main`, `footer`) sahiptir.
 - Form alanlarında görünür etiketler (`<label>`) ve zorunlu alan doğrulamaları (`required`) bulunmaktadır.
 
-## Sayfalar
