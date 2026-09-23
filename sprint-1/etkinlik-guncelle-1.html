@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etkinlik Güncelle - Kampüs Etkinlikleri</title>
+</head>
+<body>
+<main>
+        <h2>Etkinlik Güncelle</h2>
+
+        <!-- Ekleme formunun value ve seçili değerlerle dolu hali -->
+        <form action="#" method="post">
+            <p>
+                <label for="ad">Etkinlik Adı:</label><br>
+                <input type="text" id="ad" name="ad" value="Kariyer Günleri 2026" required>
+            </p>
+
+            <p>
+                <label for="kategori">Kategori:</label><br>
+                <select id="kategori" name="kategori" required>
+                    <option value="Seminer" selected>Seminer</option>
+                    <option value="Atölye">Atölye</option>
+                    <option value="Konferans">Konferans</option>
+                    <option value="Sosyal">Sosyal</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="tarih">Tarih:</label><br>
+                <input type="date" id="tarih" name="tarih" value="2026-10-12" required>
+            </p>
+
+            <p>
+                <label for="saat">Saat:</label><br>
+                <input type="time" id="saat" name="saat" value="14:00" required>
+            </p>
+
+            <p>
+                <label for="yer">Yer:</label><br>
+                <input type="text" id="yer" name="yer" value="A Blok Konferans Salonu" required>
+            </p>
+
+            <p>
+                <label for="aciklama">Açıklama:</label><br>
+                <textarea id="aciklama" name="aciklama" rows="5" cols="40" required>Sektörün lider şirketleriyle tanışma ve staj fırsatlarını yakalama imkanı.</textarea>
+            </p>
+
+            <p>
+                <button type="submit">Güncelle</button>
+            </p>
+        </form>
+
+        
+    </main>
+    <a href="index.html">Listeye dön</a>
+</body>
+</html>
